@@ -24,7 +24,7 @@
 
 1. 主要功能
 
-   1. 每隔 30 分钟自动检测一次成绩是否有更新，若有更新，将通过微信推送及时通知用户。
+   1. 每隔 10 分钟自动检测一次成绩是否有更新，若有更新，将通过微信推送及时通知用户。
 
 2. 相较于教务系统增加了哪些功能？
 
@@ -38,42 +38,7 @@
 
 ## 使用方法
 
-### 1. [Fork](https://github.com/NianBroken/ZFCheckScores/fork "Fork") 本仓库
-
-`Fork` → `Create fork`
-
-### 2. 开启 工作流读写权限
-
-`Settings` → `Actions` → `General` → `Workflow permissions` →`Read and write permissions` →`Save`
-
-### 3. 添加 Secrets
-
-`Settings` → `Secrets and variables` → `Actions` → `Secrets` → `Repository secrets` → `New repository secret` → `Add secret`
-
-> Name = Name，Secret = 例子
-
-> 程序会自动填充 `URL` 尾部的 `xtgl/login_slogin.html`，因此你无需重复添加
-
-> 对于部分教务系统，可能需要在 `URL` 中添加 `jwglxt` 路径，如：`https://www.klaio.top/jwglxt/`
-
-| Name     | 例子                   | 说明                                                                      |
-| -------- | ---------------------- | ------------------------------------------------------------------------- |
-| URL      | https://www.klaio.top/ | 教务系统地址                                                              |
-| USERNAME | 2971802058             | 教务系统用户名                                                            |
-| PASSWORD | Y3xhaCkb5PZ4           | 教务系统密码                                                              |
-| TOKEN    | J65KWMBfyDh3YPLpcvm8   | [Showdoc 的 token](https://push.showdoc.com.cn/#/push "Showdoc 的 token") |
-
-### 4. 开启 Actions
-
-`Actions` → `I understand my workflows, go ahead and enable them` → `CheckScores` → `Enable workflow`
-
-### 5. 运行 程序
-
-`Actions` → `CheckScores` → `Run workflow`
-
-_若你的程序正常运行且未报错，那么在此之后，程序将会每隔 30 分钟自动检测一次成绩是否有更新_
-
-_若你看不懂上述使用方法，你可以查看[详细使用方法](https://nianbroken.github.io/ZFCheckScores/ "详细使用方法")_
+请查看 [详细教程](https://github.com/coolarec/ZFCheckScores/blob/main/docs/README.md)
 
 ## 程序逻辑
 
