@@ -51,13 +51,8 @@
 
 > Name = Name，Secret = 例子
 
-> 程序会自动填充 `URL` 尾部的 `xtgl/login_slogin.html`，因此你无需重复添加
-
-> 对于部分教务系统，可能需要在 `URL` 中添加 `jwglxt` 路径，如：`https://www.klaio.top/jwglxt/`
-
 | Name     | 例子                   | 说明                                               |
 | -------- | ---------------------- | -------------------------------------------------- |
-| URL      | https://www.klaio.top/ | 教务系统地址                                       |
 | USERNAME | 2971802058             | 教务系统用户名                                     |
 | PASSWORD | Y3xhaCkb5PZ4           | 教务系统密码                                       |
 | TOKEN    | J65KWMBfyDh3YPLpcvm8   | [Showdoc 的 token](#获取-token "Showdoc 的 token") |
@@ -175,7 +170,7 @@
 
 当你的页面与上图所示的页面完全一致或几乎一致，则代表程序正常运行且未报错
 
-在此之后，程序将会每隔 30 分钟自动检测一次成绩是否有更新
+在此之后，程序将会每隔 10 分钟自动检测一次成绩是否有更新
 
 ## 7. 成绩更新通知
 
